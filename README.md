@@ -70,11 +70,6 @@ The MATLAB simulation files provide:
 - **Step response** analysis for transient performance
 - **Impedance analysis** for system interaction studies
 
-### Key Files:
-- `BoostConverterPassiveControlDesignCodes.m` - Main control design script
-- `BoostConverterDoubleLoopControl.slx` - Simulink model for double-loop control
-- `BoostConverterPassvieFeedbackControl.slx` - Passive feedback control simulation
-
 ## Getting Started (Boost Conveter Example)
 
 ### Prerequisites
