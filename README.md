@@ -2,7 +2,8 @@
 
 A comprehensive collection of non-isolated DC-DC power converter designs, control algorithms, and implementations. This repository contains MATLAB/Simulink simulations, DSP code implementations, and hardware prototypes for Buck and Boost converters with advanced control strategies.
 
-## 🔋 Overview
+
+## Overview
 
 This project focuses on the design and implementation of non-isolated DC-DC converters with emphasis on:
 
@@ -12,7 +13,7 @@ This project focuses on the design and implementation of non-isolated DC-DC conv
 - **Stability analysis** for constant power loads (CPL)
 - **Hardware prototyping** and validation
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 NonisolatedConverters/
@@ -29,7 +30,7 @@ NonisolatedConverters/
 └── README.md                  # This file
 ```
 
-## 🚀 Features
+## Features
 
 ### Boost Converter
 - **Double-loop control design** with inner current loop and outer voltage loop
@@ -44,7 +45,7 @@ NonisolatedConverters/
 - Modular approach for easy extension and modification
 - Compatible control architecture with Boost converter implementation
 
-## 🛠️ Technical Specifications
+## Technical Specifications
 
 ### Boost Converter Parameters (from simulation)
 - **Inductance (L):** 480 μH (2 × 240 μH)
@@ -61,7 +62,7 @@ NonisolatedConverters/
 - **Phase and gain margins** optimized for stability
 - **Impedance shaping** for enhanced system stability
 
-## 📊 Key Algorithms
+## Key Algorithms
 
 1. **Double-Loop Control Design**
    - Inner current control loop for fast transient response
@@ -78,7 +79,7 @@ NonisolatedConverters/
    - Ensures stability with constant power loads
    - Nyquist stability criterion implementation
 
-## 🔬 Simulation and Analysis
+## Simulation and Analysis
 
 The MATLAB simulation files provide:
 - **Bode plots** for frequency response analysis
@@ -91,7 +92,7 @@ The MATLAB simulation files provide:
 - `BoostConverterDoubleLoopControl.slx` - Simulink model for double-loop control
 - `BoostConverterPassvieFeedbackControl.slx` - Passive feedback control simulation
 
-## 🔧 Getting Started
+## Getting Started
 
 ### Prerequisites
 - MATLAB R2018b or later
@@ -110,7 +111,7 @@ The MATLAB simulation files provide:
 - Prototype folders include hardware design files and documentation
 - Refer to individual converter folders for specific implementation details
 
-## 📈 Results and Performance
+## Results and Performance
 
 The implemented control strategies achieve:
 - **Fast transient response** with minimal overshoot
@@ -118,41 +119,26 @@ The implemented control strategies achieve:
 - **Robust stability margins** (> 45° phase margin, > 6 dB gain margin)
 - **Effective impedance shaping** for CPL stability
 
-## 🔍 Applications
+![Control Loop Step by Step Figures](BoostConverter/Figures/ControlLoopStepbyStepFigures.png)
 
-This work is applicable to:
-- **Renewable energy systems** (solar, wind power conditioning)
-- **Electric vehicle charging** systems
-- **Data center power supplies**
-- **Telecommunications power systems**
-- **Battery management systems**
-
-## 📚 Related Papers
+## Related Papers
+- **F. Li and Z. Lin,** "Novel Passive Controller Design for Enhancing Boost Converter Stability in DC Microgrid Applications," *IEEE Journal of Emerging and Selected Topics in Power Electronics*, vol. 9, no. 6, pp. 6901-6911, Dec. 2021, doi: [10.1109/JESTPE.2021.3070234](https://doi.org/10.1109/JESTPE.2021.3070234).
 
 *This section will be updated with relevant publications and research papers.*
 
-## 👨‍💻 Author
+## Author
 
 **[Fulong Li](https://fulongli.github.io/)** - *Loughborough University, 2020*
 
 Email: fulong.li@ieee.org
 
-## 📄 License
+## License
 
 This project is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)** - see the [LICENSE.md](LICENSE.md) file for details.
 
 **Copyright © 2019–2022 Fulong Li**
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for:
-- Bug fixes
-- Performance improvements
-- Additional converter topologies
-- Enhanced control algorithms
-- Documentation improvements
-
-## 📞 Contact
+## Contact
 
 For questions, collaborations, or technical discussions, please contact:
 - **Email:** fulong.li@ieee.org
