@@ -102,7 +102,8 @@ The implemented control strategies achieve:
 - **Robust stability margins** (> 45° phase margin, > 6 dB gain margin)
 - **Effective impedance shaping** for CPL stability
 
-![Control Loop Step by Step Figures](BoostConverter/Figures/ControlLoopStepbyStepFigures.png)
+<img src="BoostConverter/Figures/ControlLoopStepbyStepFigures.png" alt="Control Loop Step by Step Figures" width="800"/>
+
 
 ## Related Papers
 - **F. Li and Z. Lin,** "Novel Passive Controller Design for Enhancing Boost Converter Stability in DC Microgrid Applications," *IEEE Journal of Emerging and Selected Topics in Power Electronics*, vol. 9, no. 6, pp. 6901-6911, Dec. 2021, doi: [10.1109/JESTPE.2021.3070234](https://doi.org/10.1109/JESTPE.2021.3070234).
