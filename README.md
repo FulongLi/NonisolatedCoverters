@@ -45,23 +45,6 @@ NonisolatedConverters/
 - Modular approach for easy extension and modification
 - Compatible control architecture with Boost converter implementation
 
-## Technical Specifications
-
-### Boost Converter Parameters (from simulation)
-- **Inductance (L):** 480 μH (2 × 240 μH)
-- **Capacitance (C):** 470 μF
-- **Load Resistance (R):** 10 Ω
-- **Switching Frequency (fs):** 25 kHz
-- **Input Voltage (Vg):** 25 V
-- **Output Voltage (V):** 50 V
-- **Duty Cycle (D):** 50%
-
-### Control System Features
-- **Inner current loop crossover frequency:** 2.5 kHz (fs/10)
-- **Outer voltage loop crossover frequency:** 250 Hz (fci/10)
-- **Phase and gain margins** optimized for stability
-- **Impedance shaping** for enhanced system stability
-
 ## Key Algorithms
 
 1. **Double-Loop Control Design**
@@ -92,7 +75,7 @@ The MATLAB simulation files provide:
 - `BoostConverterDoubleLoopControl.slx` - Simulink model for double-loop control
 - `BoostConverterPassvieFeedbackControl.slx` - Passive feedback control simulation
 
-## Getting Started
+## Getting Started (Boost Conveter Example)
 
 ### Prerequisites
 - MATLAB R2018b or later
