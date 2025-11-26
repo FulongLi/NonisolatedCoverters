@@ -124,13 +124,9 @@ The implemented control strategies achieve:
 ## Related Papers
 - **F. Li and Z. Lin,** "Novel Passive Controller Design for Enhancing Boost Converter Stability in DC Microgrid Applications," *IEEE Journal of Emerging and Selected Topics in Power Electronics*, vol. 9, no. 6, pp. 6901-6911, Dec. 2021, doi: [10.1109/JESTPE.2021.3070234](https://doi.org/10.1109/JESTPE.2021.3070234).
 
-*This section will be updated with relevant publications and research papers.*
-
 ## Author
 
 **[Fulong Li](https://fulongli.github.io/)** - *Loughborough University, 2020*
-
-Email: fulong.li@ieee.org
 
 ## License
 
@@ -143,7 +139,3 @@ This project is licensed under the **Creative Commons Attribution 4.0 Internatio
 For questions, collaborations, or technical discussions, please contact:
 - **Email:** fulong.li@ieee.org
 - **Website:** [https://fulongli.github.io/](https://fulongli.github.io/)
-
----
-
-*This repository represents ongoing research in power electronics and control systems. The implementations are provided for educational and research purposes.*
