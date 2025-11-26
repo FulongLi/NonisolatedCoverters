@@ -1,5 +1,10 @@
 # Non-isolated Converters
 
+![license - CC BY 4.0](https://img.shields.io/badge/license-CC--BY-green)
+![type - full design](https://img.shields.io/badge/type-full%20design-blue)
+![category - power electronics](https://img.shields.io/badge/category-power%20electronics-lightgrey)
+![status - archived](https://img.shields.io/badge/status-archived-red)
+
 A comprehensive collection of non-isolated DC-DC power converter designs, control algorithms, and implementations. This repository contains MATLAB/Simulink simulations, DSP code implementations, and hardware prototypes for Buck and Boost converters with advanced control strategies.
 
 
